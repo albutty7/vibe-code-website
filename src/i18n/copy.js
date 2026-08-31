@@ -1,0 +1,230 @@
+export const copy = {
+  en: {
+    dir: 'ltr',
+    locale: 'en',
+    nav: {
+      home: 'Home',
+      services: 'Services',
+      pricing: 'Pricing',
+      showcase: 'Showcase',
+      about: 'About',
+      discord: 'Discord',
+      join: 'JOIN DISCORD',
+    },
+    hero: {
+      badge: 'VIBE CODE IS ONLINE',
+      titleLead: 'CODE. CREATE.',
+      titleAccent: 'VIBE.',
+      subtitle:
+        'Professional programming & digital services built for creators, communities and businesses.',
+      subtitleArNote:
+        'From a simple idea to a complete project — VIBE CODE delivers professional programming and digital solutions.',
+      getStarted: 'GET STARTED',
+      join: 'JOIN DISCORD',
+    },
+    terminal: {
+      title: 'VIBE CODE TERMINAL',
+      lines: [
+        '$ vibe init',
+        'Initializing VIBE CODE…',
+        'Loading services…',
+        'Connecting to Discord…',
+        'Checking systems…',
+        'All systems operational.',
+      ],
+      status: 'status: ONLINE',
+      community: 'community: CONNECTED',
+      services: 'services: READY',
+    },
+    stats: {
+      title: 'LIVE STATUS',
+      subtitle: 'Real community signals — never invented numbers.',
+      members: 'Discord Members',
+      online: 'Online',
+      services: 'Services',
+      projects: 'Projects',
+      unavailable: 'Live statistics unavailable',
+      unavailableHint: 'Connect the Discord backend to show member counts.',
+    },
+    services: {
+      title: 'WHAT WE BUILD',
+      subtitle: 'Professional digital solutions designed around your needs.',
+      request: 'REQUEST SERVICE',
+    },
+    pricing: {
+      title: 'SIMPLE PRICING',
+      subtitle: 'Talk with us on Discord for a quote that matches your project.',
+      quote: 'REQUEST QUOTE',
+      quotePlaceholder: 'Custom quote via Discord',
+    },
+    showcase: {
+      title: 'FEATURED WORK',
+      subtitle: 'Selected work and placeholders you can replace later.',
+      view: 'View Project',
+    },
+    why: {
+      title: 'WHY VIBE CODE?',
+      items: [
+        {
+          icon: 'Zap',
+          title: 'FAST DELIVERY',
+          text: 'Focused workflows designed to get your project moving quickly.',
+        },
+        {
+          icon: 'Gem',
+          title: 'PROFESSIONAL QUALITY',
+          text: 'Clean design, reliable code and attention to detail.',
+        },
+        {
+          icon: 'Wrench',
+          title: 'CUSTOM SOLUTIONS',
+          text: 'Every project can be adapted to the client’s needs.',
+        },
+        {
+          icon: 'ShieldCheck',
+          title: 'RELIABLE SUPPORT',
+          text: 'Stay connected and get support through our Discord community.',
+        },
+      ],
+    },
+    about: {
+      title: 'BUILT FOR PEOPLE WHO BUILD.',
+      p1: 'VIBE CODE is a digital community focused on programming, development and custom digital solutions.',
+      p2: 'Whether you need a Discord bot, website, automation system or a completely custom project, VIBE CODE is here to turn your idea into something real.',
+    },
+    discordCta: {
+      title: 'YOUR NEXT PROJECT STARTS HERE.',
+      subtitle:
+        'Join the VIBE CODE community, talk with developers, request a service and bring your idea to life.',
+      online: 'SERVER ONLINE',
+      members: 'MEMBERS',
+      services: 'SERVICES',
+      projects: 'PROJECTS',
+      join: 'JOIN VIBE CODE ON DISCORD',
+    },
+    cta: {
+      title: 'READY TO BUILD SOMETHING?',
+      subtitle: 'Your idea is only one message away.',
+      button: 'START YOUR PROJECT',
+    },
+    footer: {
+      description: 'Programming • Development • Digital Services',
+      rights: '© 2026 VIBE CODE. All rights reserved.',
+    },
+    lang: 'العربية',
+  },
+  ar: {
+    dir: 'rtl',
+    locale: 'ar',
+    nav: {
+      home: 'الرئيسية',
+      services: 'الخدمات',
+      pricing: 'الأسعار',
+      showcase: 'الأعمال',
+      about: 'من نحن',
+      discord: 'ديسكورد',
+      join: 'انضم لديسكورد',
+    },
+    hero: {
+      badge: 'VIBE CODE متصل الآن',
+      titleLead: 'CODE. CREATE.',
+      titleAccent: 'VIBE.',
+      subtitle:
+        'حلول برمجية ورقمية احترافية للمبدعين والمجتمعات والأعمال.',
+      subtitleArNote:
+        'من فكرة بسيطة إلى مشروع متكامل — VIBE CODE يوفر لك حلولًا برمجية ورقمية احترافية.',
+      getStarted: 'ابدأ الآن',
+      join: 'انضم لديسكورد',
+    },
+    terminal: {
+      title: 'VIBE CODE TERMINAL',
+      lines: [
+        '$ vibe init',
+        'Initializing VIBE CODE…',
+        'Loading services…',
+        'Connecting to Discord…',
+        'Checking systems…',
+        'All systems operational.',
+      ],
+      status: 'status: ONLINE',
+      community: 'community: CONNECTED',
+      services: 'services: READY',
+    },
+    stats: {
+      title: 'الحالة المباشرة',
+      subtitle: 'إشارات حقيقية من المجتمع — بدون أرقام مختلقة.',
+      members: 'أعضاء ديسكورد',
+      online: 'متصلون',
+      services: 'الخدمات',
+      projects: 'المشاريع',
+      unavailable: 'الإحصائيات المباشرة غير متاحة',
+      unavailableHint: 'اربط خلفية ديسكورد لعرض عدد الأعضاء.',
+    },
+    services: {
+      title: 'ماذا نبني',
+      subtitle: 'حلول رقمية احترافية تُصمم حول احتياجك.',
+      request: 'اطلب الخدمة',
+    },
+    pricing: {
+      title: 'أسعار بسيطة',
+      subtitle: 'تواصل معنا عبر ديسكورد للحصول على عرض يناسب مشروعك.',
+      quote: 'اطلب عرض سعر',
+      quotePlaceholder: 'عرض مخصص عبر ديسكورد',
+    },
+    showcase: {
+      title: 'أعمال مختارة',
+      subtitle: 'نماذج يمكن استبدالها لاحقًا بمشاريعك الحقيقية.',
+      view: 'عرض المشروع',
+    },
+    why: {
+      title: 'لماذا VIBE CODE؟',
+      items: [
+        {
+          icon: 'Zap',
+          title: 'تنفيذ سريع',
+          text: 'مسارات عمل مركّزة لتحريك مشروعك بسرعة.',
+        },
+        {
+          icon: 'Gem',
+          title: 'جودة احترافية',
+          text: 'تصميم نظيف، كود موثوق واهتمام بالتفاصيل.',
+        },
+        {
+          icon: 'Wrench',
+          title: 'حلول مخصصة',
+          text: 'كل مشروع يمكن تكييفه حسب احتياج العميل.',
+        },
+        {
+          icon: 'ShieldCheck',
+          title: 'دعم موثوق',
+          text: 'ابقَ على تواصل واحصل على الدعم عبر مجتمع ديسكورد.',
+        },
+      ],
+    },
+    about: {
+      title: 'مبني لمن يبنون.',
+      p1: 'VIBE CODE مجتمع رقمي يركز على البرمجة والتطوير والحلول الرقمية المخصصة.',
+      p2: 'سواء كنت تحتاج بوت ديسكورد أو موقعًا أو نظام أتمتة أو مشروعًا مخصصًا بالكامل، VIBE CODE هنا ليحوّل فكرتك إلى شيء حقيقي.',
+    },
+    discordCta: {
+      title: 'مشروعك القادم يبدأ من هنا.',
+      subtitle:
+        'انضم إلى مجتمع VIBE CODE، تحدث مع المطوّرين، اطلب خدمة وحوّل فكرتك إلى واقع.',
+      online: 'السيرفر متصل',
+      members: 'الأعضاء',
+      services: 'الخدمات',
+      projects: 'المشاريع',
+      join: 'انضم إلى VIBE CODE على ديسكورد',
+    },
+    cta: {
+      title: 'جاهز تبني شيء؟',
+      subtitle: 'فكرتك على بعد رسالة واحدة.',
+      button: 'ابدأ مشروعك',
+    },
+    footer: {
+      description: 'برمجة • تطوير • خدمات رقمية',
+      rights: '© 2026 VIBE CODE. جميع الحقوق محفوظة.',
+    },
+    lang: 'EN',
+  },
+}

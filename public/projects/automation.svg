@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#070707"/>
+  <path d="M80 300 C220 120, 360 340, 500 180 S720 280, 740 140" fill="none" stroke="#e11d48" stroke-width="4"/>
+  <circle cx="500" cy="180" r="8" fill="#e11d48"/>
+  <text x="80" y="80" font-family="monospace" font-size="16" fill="#888">automation pipeline</text>
+</svg>
