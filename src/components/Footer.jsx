@@ -1,4 +1,4 @@
-import { brand, discord } from '../config'
+import { brand, discord, panel } from '../config'
 import { useLang } from '../i18n/LanguageContext'
 
 const links = [
@@ -7,6 +7,7 @@ const links = [
   { href: '#pricing', key: 'pricing' },
   { href: '#showcase', key: 'showcase' },
   { href: '#about', key: 'about' },
+  { href: '#panel', key: 'panel' },
   { href: '#discord', key: 'discord' },
 ]
 
@@ -29,6 +30,9 @@ export function Footer() {
               {t.nav[link.key]}
             </a>
           ))}
+          <a href={panel.url} target="_blank" rel="noreferrer" className="hover:text-vibe">
+            {t.nav.panel}
+          </a>
           <a href={discord.invite} target="_blank" rel="noreferrer" className="hover:text-vibe">
             Discord
           </a>

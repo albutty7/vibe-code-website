@@ -8,6 +8,11 @@ export const discord = {
   invite: 'https://discord.gg/PCUn8Mw4K',
 }
 
+export const panel = {
+  url: 'https://panel.lobexvibe.cyou',
+  host: 'panel.lobexvibe.cyou',
+}
+
 export const seo = {
   title: 'VIBE CODE — Programming & Digital Services',
   description:

@@ -9,6 +9,7 @@ const links = [
   { href: '#pricing', key: 'pricing' },
   { href: '#showcase', key: 'showcase' },
   { href: '#about', key: 'about' },
+  { href: '#panel', key: 'panel' },
   { href: '#discord', key: 'discord' },
 ]
 
@@ -38,7 +39,7 @@ export function Navbar() {
           <span className="text-sm font-semibold tracking-[0.18em]">{brand.name}</span>
         </a>
 
-        <nav className="hidden items-center gap-7 text-sm text-white/70 lg:flex">
+        <nav className="hidden items-center gap-5 text-sm text-white/70 xl:gap-7 lg:flex">
           {links.map((link) => (
             <a key={link.href} href={link.href} className="transition hover:text-white">
               {t.nav[link.key]}
