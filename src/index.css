@@ -30,11 +30,11 @@ body {
 
 .grid-bg {
   background-image:
-    linear-gradient(rgba(225, 29, 72, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(225, 29, 72, 0.07) 1px, transparent 1px);
+    linear-gradient(rgba(225, 29, 72, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(225, 29, 72, 0.08) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse 80% 70% at 50% 20%, black, transparent);
-  animation: gridShift 28s linear infinite;
+  animation: gridShift 22s linear infinite;
 }
 
 @keyframes gridShift {
@@ -43,13 +43,65 @@ body {
 }
 
 @keyframes pulseGlow {
-  0%, 100% { opacity: 0.45; transform: scale(1); }
-  50% { opacity: 0.7; transform: scale(1.06); }
+  0%, 100% { opacity: 0.42; transform: scale(1); }
+  50% { opacity: 0.72; transform: scale(1.08); }
+}
+
+@keyframes orbDriftA {
+  0% { transform: translate(0, 0) scale(1); }
+  40% { transform: translate(8%, 12%) scale(1.08); }
+  70% { transform: translate(-4%, 6%) scale(0.96); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+@keyframes orbDriftB {
+  0% { transform: translate(0, 0) scale(1); }
+  35% { transform: translate(-10%, -8%) scale(1.1); }
+  65% { transform: translate(6%, 10%) scale(0.94); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+@keyframes orbDriftC {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(12%, -10%); }
+  100% { transform: translate(0, 0); }
 }
 
 @keyframes floatSoft {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
+}
+
+@keyframes particleRise {
+  0% {
+    transform: translate3d(0, 18px, 0);
+    opacity: 0;
+  }
+  18% { opacity: 0.7; }
+  82% { opacity: 0.55; }
+  100% {
+    transform: translate3d(12px, -42vh, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes scanSweep {
+  0% { transform: translateY(-20%); opacity: 0; }
+  12% { opacity: 0.45; }
+  88% { opacity: 0.2; }
+  100% { transform: translateY(120%); opacity: 0; }
+}
+
+@keyframes beamSlide {
+  0% { transform: translateX(-30%) scaleX(0.6); opacity: 0; }
+  30% { opacity: 0.35; }
+  70% { opacity: 0.2; }
+  100% { transform: translateX(40%) scaleX(1); opacity: 0; }
+}
+
+@keyframes sparkPulse {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.8); }
 }
 
 @keyframes blink {
@@ -61,8 +113,36 @@ body {
   animation: pulseGlow 8s ease-in-out infinite;
 }
 
+.orb-a {
+  animation: orbDriftA 18s ease-in-out infinite, pulseGlow 9s ease-in-out infinite;
+}
+
+.orb-b {
+  animation: orbDriftB 22s ease-in-out infinite, pulseGlow 11s ease-in-out infinite;
+}
+
+.orb-c {
+  animation: orbDriftC 16s ease-in-out infinite;
+}
+
 .float-soft {
   animation: floatSoft 7s ease-in-out infinite;
+}
+
+.scan-line {
+  animation: scanSweep 11s ease-in-out infinite;
+}
+
+.beam {
+  animation: beamSlide 9s ease-in-out infinite;
+}
+
+.particle {
+  animation: particleRise linear infinite;
+}
+
+.spark {
+  animation: sparkPulse 3.6s ease-in-out infinite;
 }
 
 .cursor-blink {
@@ -85,4 +165,19 @@ body {
 
 ::selection {
   background: rgba(225, 29, 72, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grid-bg,
+  .orb,
+  .orb-a,
+  .orb-b,
+  .orb-c,
+  .float-soft,
+  .scan-line,
+  .beam,
+  .particle,
+  .spark {
+    animation: none;
+  }
 }

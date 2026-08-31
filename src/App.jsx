@@ -6,6 +6,7 @@ import { FinalCTA } from './components/FinalCTA'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
+import { Panel } from './components/Panel'
 import { Pricing } from './components/Pricing'
 import { ScrollProgress } from './components/ScrollProgress'
 import { Services } from './components/Services'
@@ -27,6 +28,7 @@ export default function App() {
         <Showcase />
         <WhyVibeCode />
         <About />
+        <Panel />
         <DiscordCTA />
         <FinalCTA />
       </main>

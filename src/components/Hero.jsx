@@ -1,5 +1,5 @@
-import { ArrowRight } from 'lucide-react'
-import { discord } from '../config'
+import { ArrowRight, LayoutDashboard } from 'lucide-react'
+import { discord, panel } from '../config'
 import { useLang } from '../i18n/LanguageContext'
 import { DiscordButton } from './DiscordButton'
 import { Terminal } from './Terminal'
@@ -27,7 +27,7 @@ export function Hero() {
           <p className="mt-3 max-w-lg text-sm leading-7 text-white/50 sm:text-base">
             {t.hero.subtitleArNote}
           </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href="#services"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-white px-6 text-sm font-semibold text-black transition hover:scale-[1.02]"
@@ -36,6 +36,13 @@ export function Hero() {
               <ArrowRight size={16} />
             </a>
             <DiscordButton className="min-h-12">{t.hero.join}</DiscordButton>
+            <a
+              href="#panel"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 text-sm font-semibold text-white transition hover:border-vibe/50"
+            >
+              <LayoutDashboard size={16} />
+              {t.hero.panel}
+            </a>
           </div>
           <a
             href={discord.invite}

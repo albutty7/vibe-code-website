@@ -9,6 +9,7 @@ export const copy = {
       showcase: 'Showcase',
       about: 'About',
       discord: 'Discord',
+      panel: 'Panel',
       join: 'JOIN DISCORD',
     },
     hero: {
@@ -21,6 +22,7 @@ export const copy = {
         'From a simple idea to a complete project — VIBE CODE delivers professional programming and digital solutions.',
       getStarted: 'GET STARTED',
       join: 'JOIN DISCORD',
+      panel: 'OPEN PANEL',
     },
     terminal: {
       title: 'VIBE CODE TERMINAL',
@@ -102,6 +104,18 @@ export const copy = {
       projects: 'PROJECTS',
       join: 'JOIN VIBE CODE ON DISCORD',
     },
+    panel: {
+      eyebrow: 'CLIENT ACCESS',
+      title: 'CONTROL PANEL',
+      subtitle: 'Manage your services from the official VIBE panel — built into the site.',
+      windowTitle: 'LOBEX VIBE PANEL',
+      online: 'ONLINE',
+      open: 'OPEN PANEL',
+      fullscreen: 'Open in a new window',
+      loading: 'CONNECTING',
+      loadingHint: 'Loading the client panel…',
+      note: 'If the panel does not load inside the frame, open it in a new tab. Login happens on the official panel.',
+    },
     cta: {
       title: 'READY TO BUILD SOMETHING?',
       subtitle: 'Your idea is only one message away.',
@@ -123,6 +137,7 @@ export const copy = {
       showcase: 'الأعمال',
       about: 'من نحن',
       discord: 'ديسكورد',
+      panel: 'اللوحة',
       join: 'انضم لديسكورد',
     },
     hero: {
@@ -135,6 +150,7 @@ export const copy = {
         'من فكرة بسيطة إلى مشروع متكامل — VIBE CODE يوفر لك حلولًا برمجية ورقمية احترافية.',
       getStarted: 'ابدأ الآن',
       join: 'انضم لديسكورد',
+      panel: 'افتح اللوحة',
     },
     terminal: {
       title: 'VIBE CODE TERMINAL',
@@ -215,6 +231,18 @@ export const copy = {
       services: 'الخدمات',
       projects: 'المشاريع',
       join: 'انضم إلى VIBE CODE على ديسكورد',
+    },
+    panel: {
+      eyebrow: 'وصول العملاء',
+      title: 'لوحة التحكم',
+      subtitle: 'أدر خدماتك من لوحة VIBE الرسمية — مدمجة داخل الموقع.',
+      windowTitle: 'LOBEX VIBE PANEL',
+      online: 'متصل',
+      open: 'افتح اللوحة',
+      fullscreen: 'افتح في نافذة جديدة',
+      loading: 'جاري الاتصال',
+      loadingHint: 'يتم تحميل لوحة العميل…',
+      note: 'إذا لم تظهر اللوحة داخل الإطار، افتحها في تبويب جديد. تسجيل الدخول يتم على اللوحة الرسمية.',
     },
     cta: {
       title: 'جاهز تبني شيء؟',
