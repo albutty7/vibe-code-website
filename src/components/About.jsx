@@ -25,7 +25,7 @@ export function About() {
             </div>
             <pre className="overflow-x-auto p-5 font-mono text-[13px] leading-7 text-white/75">
 {`const vibe = {
-  brand: "VIBE CODE",
+  brand: "V100 NETWORK",
   stack: ["React", "Node.js", "Discord"],
   focus: ["bots", "web", "automation"],
 }
