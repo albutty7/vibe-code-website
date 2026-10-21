@@ -8,8 +8,9 @@ export function Hero() {
   const { t } = useLang()
 
   return (
-    <section id="home" className="relative overflow-hidden px-4 pb-20 pt-10 sm:px-6 sm:pt-16">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
+    <section id="home" className="relative overflow-hidden px-4 pb-24 pt-10 sm:px-6 sm:pb-32 sm:pt-16">
+      <div className="pointer-events-none absolute left-1/2 top-0 h-80 w-[min(80vw,56rem)] -translate-x-1/2 rounded-full bg-vibe/10 blur-[120px]" />
+      <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
         <div>
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-vibe/30 bg-vibe/10 px-3 py-1.5 font-mono text-[11px] tracking-[0.2em] text-vibe">
             <span className="h-1.5 w-1.5 rounded-full bg-vibe shadow-[0_0_10px_#2563eb]" />
