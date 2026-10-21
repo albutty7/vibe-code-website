@@ -17,7 +17,7 @@ export function ScrollProgress() {
     <div className="fixed inset-x-0 top-0 z-[60] h-[2px] bg-white/5">
       <div
         className="h-full bg-vibe"
-        style={{ width: `${progress * 100}%`, boxShadow: '0 0 12px rgba(225,29,72,0.8)' }}
+        style={{ width: `${progress * 100}%`, boxShadow: '0 0 12px rgba(37,99,235,0.8)' }}
       />
     </div>
   )

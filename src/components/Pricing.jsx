@@ -21,7 +21,7 @@ export function Pricing() {
                 <article
                   className={`relative h-full rounded-2xl p-7 ${
                     plan.featured
-                      ? 'border border-vibe/50 bg-vibe/10 red-glow'
+                      ? 'border border-vibe/50 bg-vibe/10 blue-glow'
                       : 'glass'
                   }`}
                 >

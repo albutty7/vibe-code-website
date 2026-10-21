@@ -20,7 +20,7 @@ export function Panel() {
         </Reveal>
 
         <Reveal delay={0.06}>
-          <div className="mt-12 overflow-hidden rounded-[28px] border border-vibe/30 bg-black/70 shadow-[0_0_70px_rgba(225,29,72,0.16)]">
+          <div className="mt-12 overflow-hidden rounded-[28px] border border-vibe/30 bg-black/70 shadow-[0_0_70px_rgba(37,99,235,0.16)]">
             <div className="flex flex-col gap-4 border-b border-white/10 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6">
               <div className="flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-vibe/30 bg-vibe/10 text-vibe">
@@ -33,14 +33,14 @@ export function Panel() {
               </div>
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-vibe/30 bg-vibe/10 px-3 py-1.5 font-mono text-[10px] tracking-[0.18em] text-vibe">
-                  <span className="h-1.5 w-1.5 rounded-full bg-vibe shadow-[0_0_8px_#e11d48]" />
+                  <span className="h-1.5 w-1.5 rounded-full bg-vibe shadow-[0_0_8px_#2563eb]" />
                   {t.panel.online}
                 </span>
                 <a
                   href={panel.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-vibe px-5 text-xs font-semibold tracking-wide text-white red-glow transition hover:bg-crimson"
+                  className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-vibe px-5 text-xs font-semibold tracking-wide text-white blue-glow transition hover:bg-crimson"
                 >
                   {t.panel.open}
                   <ExternalLink size={14} />

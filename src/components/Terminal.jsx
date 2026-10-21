@@ -23,7 +23,7 @@ export function Terminal() {
   }, [t])
 
   return (
-    <div className="glass red-glow relative overflow-hidden rounded-2xl">
+    <div className="glass blue-glow relative overflow-hidden rounded-2xl">
       <div className="flex items-center gap-2 border-b border-white/10 px-4 py-3">
         <span className="h-2.5 w-2.5 rounded-full bg-[#ff5f56]" />
         <span className="h-2.5 w-2.5 rounded-full bg-[#ffbd2e]" />

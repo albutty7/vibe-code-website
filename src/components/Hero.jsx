@@ -12,12 +12,12 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
         <div>
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-vibe/30 bg-vibe/10 px-3 py-1.5 font-mono text-[11px] tracking-[0.2em] text-vibe">
-            <span className="h-1.5 w-1.5 rounded-full bg-vibe shadow-[0_0_10px_#e11d48]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-vibe shadow-[0_0_10px_#2563eb]" />
             {t.hero.badge}
           </div>
           <h1 className="max-w-xl text-4xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl">
             {t.hero.titleLead}{' '}
-            <span className="text-vibe" style={{ textShadow: '0 0 28px rgba(225,29,72,0.55)' }}>
+            <span className="text-vibe" style={{ textShadow: '0 0 28px rgba(37,99,235,0.55)' }}>
               {t.hero.titleAccent}
             </span>
           </h1>

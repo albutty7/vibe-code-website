@@ -17,5 +17,5 @@ export const seo = {
   title: 'V100 NETWORK — Programming & Digital Services',
   description:
     'V100 NETWORK is a modern programming and digital services community for developers, creators and businesses.',
-  url: 'https://vibecode.dev',
+  url: 'https://v100.network',
 }

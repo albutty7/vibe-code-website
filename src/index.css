@@ -4,9 +4,9 @@
 @theme {
   --font-sans: "Space Grotesk", "IBM Plex Sans Arabic", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
-  --color-vibe: #e11d48;
-  --color-crimson: #dc143c;
-  --color-blood: #7f1d1d;
+  --color-vibe: #2563eb;
+  --color-crimson: #1d4ed8;
+  --color-blood: #1e3a8a;
   --color-ink: #050506;
 }
 
@@ -30,8 +30,8 @@ body {
 
 .grid-bg {
   background-image:
-    linear-gradient(rgba(225, 29, 72, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(225, 29, 72, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(37, 99, 235, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37, 99, 235, 0.08) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse 80% 70% at 50% 20%, black, transparent);
   animation: gridShift 22s linear infinite;
@@ -155,16 +155,16 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.red-glow {
-  box-shadow: 0 0 0 1px rgba(225, 29, 72, 0.35), 0 0 28px rgba(225, 29, 72, 0.22);
+.blue-glow {
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.35), 0 0 28px rgba(37, 99, 235, 0.22);
 }
 
-.red-glow-strong {
-  box-shadow: 0 0 0 1px rgba(225, 29, 72, 0.5), 0 12px 40px rgba(225, 29, 72, 0.28);
+.blue-glow-strong {
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.5), 0 12px 40px rgba(37, 99, 235, 0.28);
 }
 
 ::selection {
-  background: rgba(225, 29, 72, 0.35);
+  background: rgba(37, 99, 235, 0.35);
 }
 
 @media (prefers-reduced-motion: reduce) {

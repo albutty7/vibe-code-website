@@ -28,7 +28,7 @@ export function DiscordCTA() {
   return (
     <section id="discord" className="relative px-4 py-20 sm:px-6">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-vibe/10 to-transparent" />
-      <div className="mx-auto max-w-7xl overflow-hidden rounded-[28px] border border-vibe/30 bg-black/70 p-6 shadow-[0_0_80px_rgba(225,29,72,0.18)] sm:p-10 lg:p-14">
+      <div className="mx-auto max-w-7xl overflow-hidden rounded-[28px] border border-vibe/30 bg-black/70 p-6 shadow-[0_0_80px_rgba(37,99,235,0.18)] sm:p-10 lg:p-14">
         <Reveal>
           <div className="max-w-3xl">
             <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-5xl">
@@ -55,7 +55,7 @@ export function DiscordCTA() {
             href={discord.invite}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex min-h-14 items-center justify-center rounded-full bg-vibe px-8 text-base font-semibold tracking-wide text-white red-glow-strong transition hover:scale-[1.02] hover:bg-crimson"
+            className="inline-flex min-h-14 items-center justify-center rounded-full bg-vibe px-8 text-base font-semibold tracking-wide text-white blue-glow-strong transition hover:scale-[1.02] hover:bg-crimson"
           >
             {t.discordCta.join}
           </a>

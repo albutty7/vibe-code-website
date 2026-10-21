@@ -59,7 +59,7 @@ export function Navbar() {
             href={discord.invite}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-vibe px-5 py-2.5 text-xs font-semibold tracking-[0.14em] text-white red-glow transition hover:bg-crimson hover:red-glow-strong"
+            className="rounded-full bg-vibe px-5 py-2.5 text-xs font-semibold tracking-[0.14em] text-white blue-glow transition hover:bg-crimson hover:blue-glow-strong"
           >
             {t.nav.join}
           </a>
@@ -99,7 +99,7 @@ export function Navbar() {
               href={discord.invite}
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl bg-vibe px-3 py-3 text-center font-semibold text-white red-glow"
+              className="rounded-xl bg-vibe px-3 py-3 text-center font-semibold text-white blue-glow"
             >
               {t.nav.join}
             </a>

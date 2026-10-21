@@ -15,7 +15,7 @@ export const copy = {
     hero: {
       badge: 'V100 NETWORK IS ONLINE',
       titleLead: 'CODE. CREATE.',
-      titleAccent: 'VIBE.',
+      titleAccent: 'V100 NETWORK.',
       subtitle:
         'Professional programming & digital services built for creators, communities and businesses.',
       subtitleArNote:
@@ -27,7 +27,7 @@ export const copy = {
     terminal: {
       title: 'V100 NETWORK TERMINAL',
       lines: [
-        '$ vibe init',
+        '$ v100 init',
         'Initializing V100 NETWORK…',
         'Loading services…',
         'Connecting to Discord…',
@@ -107,8 +107,8 @@ export const copy = {
     panel: {
       eyebrow: 'CLIENT ACCESS',
       title: 'CONTROL PANEL',
-      subtitle: 'Manage your services from the official VIBE panel — built into the site.',
-      windowTitle: 'LOBEX VIBE PANEL',
+      subtitle: 'Manage your services from the official V100 NETWORK panel — built into the site.',
+      windowTitle: 'LOBEX V100 NETWORK PANEL',
       online: 'ONLINE',
       open: 'OPEN PANEL',
       fullscreen: 'Open in a new window',
@@ -143,7 +143,7 @@ export const copy = {
     hero: {
       badge: 'V100 NETWORK متصل الآن',
       titleLead: 'CODE. CREATE.',
-      titleAccent: 'VIBE.',
+      titleAccent: 'V100 NETWORK.',
       subtitle:
         'حلول برمجية ورقمية احترافية للمبدعين والمجتمعات والأعمال.',
       subtitleArNote:
@@ -155,7 +155,7 @@ export const copy = {
     terminal: {
       title: 'V100 NETWORK TERMINAL',
       lines: [
-        '$ vibe init',
+        '$ v100 init',
         'Initializing V100 NETWORK…',
         'Loading services…',
         'Connecting to Discord…',
@@ -220,7 +220,7 @@ export const copy = {
     about: {
       title: 'مبني لمن يبنون.',
       p1: 'V100 NETWORK مجتمع رقمي يركز على البرمجة والتطوير والحلول الرقمية المخصصة.',
-      p2: 'سواء كنت تحتاج بوت ديسكورد أو موقعًا أو نظام أتمتة أو مشروعًا مخصصًا بالكامل، V100 NETWORK هنا ليحوّل فكرتك إلى شيء حقيقي.',
+      p2: 'سواء كنت تحتاج بوت ديسكورد أو موقعًا أو نظام أتمتة أو مشروعًا مخصصًا بالكامل، V100 NETWORK هنا ليحوّل فكرتك إلى شي�� حقيقي.',
     },
     discordCta: {
       title: 'مشروعك القادم يبدأ من هنا.',
@@ -235,8 +235,8 @@ export const copy = {
     panel: {
       eyebrow: 'وصول العملاء',
       title: 'لوحة التحكم',
-      subtitle: 'أدر خدماتك من لوحة VIBE الرسمية — مدمجة داخل الموقع.',
-      windowTitle: 'LOBEX VIBE PANEL',
+      subtitle: 'أدر خدماتك من لوحة V100 NETWORK الرسمية — مدمجة داخل الموقع.',
+      windowTitle: 'LOBEX V100 NETWORK PANEL',
       online: 'متصل',
       open: 'افتح اللوحة',
       fullscreen: 'افتح في نافذة جديدة',

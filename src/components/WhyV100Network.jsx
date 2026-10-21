@@ -4,7 +4,7 @@ import { Reveal, SectionHeading } from './Reveal'
 
 const icons = { Zap, Gem, Wrench, ShieldCheck }
 
-export function WhyVibeCode() {
+export function WhyV100Network() {
   const { t } = useLang()
 
   return (
