@@ -21,11 +21,11 @@ export function About() {
             <div className="flex items-center gap-2 border-b border-white/10 px-4 py-3 font-mono text-xs text-white/40">
               <span className="text-vibe">src</span>
               <span>/</span>
-              <span>vibe.code</span>
+              <span>v100.network</span>
             </div>
             <pre className="overflow-x-auto p-5 font-mono text-[13px] leading-7 text-white/75">
-{`const vibe = {
-  brand: "VIBE CODE",
+{`const v100Network = {
+  brand: "V100 NETWORK",
   stack: ["React", "Node.js", "Discord"],
   focus: ["bots", "web", "automation"],
 }

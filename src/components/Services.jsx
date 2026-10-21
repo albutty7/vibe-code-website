@@ -21,7 +21,7 @@ export function Services() {
             const content = service[lang]
             return (
               <Reveal key={service.id} delay={index * 0.04}>
-                <article className="group glass h-full rounded-2xl p-6 transition duration-300 hover:-translate-y-1 hover:border-vibe/40 hover:shadow-[0_0_32px_rgba(225,29,72,0.12)]">
+                <article className="group glass h-full rounded-2xl p-6 transition duration-300 hover:-translate-y-1 hover:border-vibe/40 hover:shadow-[0_0_32px_rgba(37,99,235,0.12)]">
                   <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-vibe transition group-hover:border-vibe/40">
                     <Icon size={20} />
                   </div>

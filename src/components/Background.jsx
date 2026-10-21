@@ -19,7 +19,7 @@ export function Background() {
   return (
     <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
       <div className="absolute inset-0 bg-[#050506]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(225,29,72,0.12),transparent_55%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(37,99,235,0.12),transparent_55%)]" />
 
       <div className="orb-a absolute -left-24 top-[-10%] h-[460px] w-[460px] rounded-full bg-vibe/25 blur-[120px]" />
       <div className="orb-b absolute right-[-14%] top-[22%] h-[420px] w-[420px] rounded-full bg-crimson/20 blur-[130px]" />
@@ -58,7 +58,7 @@ export function Background() {
             left: particle.left,
             width: particle.size,
             height: particle.size,
-            boxShadow: '0 0 10px rgba(225,29,72,0.7)',
+            boxShadow: '0 0 10px rgba(37,99,235,0.7)',
             animationDelay: particle.delay,
             animationDuration: particle.duration,
           }}

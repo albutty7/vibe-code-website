@@ -1,5 +1,5 @@
 export const brand = {
-  name: 'VIBE CODE',
+  name: 'V100 NETWORK',
   mark: '</>',
   tagline: 'Programming • Development • Digital Services',
 }
@@ -14,8 +14,8 @@ export const panel = {
 }
 
 export const seo = {
-  title: 'VIBE CODE — Programming & Digital Services',
+  title: 'V100 NETWORK — Programming & Digital Services',
   description:
-    'VIBE CODE is a modern programming and digital services community for developers, creators and businesses.',
-  url: 'https://vibecode.dev',
+    'V100 NETWORK is a modern programming and digital services community for developers, creators and businesses.',
+  url: 'https://v100.network',
 }

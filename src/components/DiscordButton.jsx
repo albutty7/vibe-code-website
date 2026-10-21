@@ -7,7 +7,7 @@ export function DiscordButton({
 }) {
   const styles =
     variant === 'primary'
-      ? 'bg-vibe text-white red-glow hover:bg-crimson hover:red-glow-strong'
+      ? 'bg-vibe text-white blue-glow hover:bg-crimson hover:blue-glow-strong'
       : 'border border-white/15 bg-white/5 text-white hover:border-vibe/60 hover:text-white'
 
   return (

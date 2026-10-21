@@ -59,7 +59,7 @@ export function Navbar() {
             href={discord.invite}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-vibe px-5 py-2.5 text-xs font-semibold tracking-[0.14em] text-white red-glow transition hover:bg-crimson hover:red-glow-strong"
+            className="rounded-full bg-vibe px-5 py-2.5 text-xs font-semibold tracking-[0.14em] text-white blue-glow transition hover:bg-crimson hover:blue-glow-strong"
           >
             {t.nav.join}
           </a>
@@ -67,16 +67,18 @@ export function Navbar() {
 
         <button
           type="button"
-          className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-white lg:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-white transition hover:border-vibe/50 hover:bg-vibe/10 lg:hidden"
           onClick={() => setOpen((v) => !v)}
-          aria-label="Menu"
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
         >
           {open ? <X size={18} /> : <Menu size={18} />}
         </button>
       </div>
 
       {open ? (
-        <div className="border-t border-white/10 bg-black/90 px-4 py-4 lg:hidden">
+        <div id="mobile-navigation" className="border-t border-white/10 bg-black/95 px-4 py-4 shadow-2xl shadow-black/30 backdrop-blur-xl lg:hidden">
           <div className="flex flex-col gap-3">
             {links.map((link) => (
               <a
@@ -99,7 +101,7 @@ export function Navbar() {
               href={discord.invite}
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl bg-vibe px-3 py-3 text-center font-semibold text-white red-glow"
+              className="rounded-xl bg-vibe px-3 py-3 text-center font-semibold text-white blue-glow"
             >
               {t.nav.join}
             </a>

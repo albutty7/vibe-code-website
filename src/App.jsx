@@ -12,7 +12,7 @@ import { ScrollProgress } from './components/ScrollProgress'
 import { Services } from './components/Services'
 import { Showcase } from './components/Showcase'
 import { Stats } from './components/Stats'
-import { WhyVibeCode } from './components/WhyVibeCode'
+import { WhyV100Network } from './components/WhyV100Network'
 
 export default function App() {
   return (
@@ -26,7 +26,7 @@ export default function App() {
         <Services />
         <Pricing />
         <Showcase />
-        <WhyVibeCode />
+        <WhyV100Network />
         <About />
         <Panel />
         <DiscordCTA />

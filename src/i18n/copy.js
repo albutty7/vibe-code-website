@@ -13,22 +13,22 @@ export const copy = {
       join: 'JOIN DISCORD',
     },
     hero: {
-      badge: 'VIBE CODE IS ONLINE',
+      badge: 'V100 NETWORK IS ONLINE',
       titleLead: 'CODE. CREATE.',
-      titleAccent: 'VIBE.',
+      titleAccent: 'V100 NETWORK.',
       subtitle:
         'Professional programming & digital services built for creators, communities and businesses.',
       subtitleArNote:
-        'From a simple idea to a complete project — VIBE CODE delivers professional programming and digital solutions.',
+        'From a simple idea to a complete project — V100 NETWORK delivers professional programming and digital solutions.',
       getStarted: 'GET STARTED',
       join: 'JOIN DISCORD',
       panel: 'OPEN PANEL',
     },
     terminal: {
-      title: 'VIBE CODE TERMINAL',
+      title: 'V100 NETWORK TERMINAL',
       lines: [
-        '$ vibe init',
-        'Initializing VIBE CODE…',
+        '$ v100 init',
+        'Initializing V100 NETWORK…',
         'Loading services…',
         'Connecting to Discord…',
         'Checking systems…',
@@ -65,7 +65,7 @@ export const copy = {
       view: 'View Project',
     },
     why: {
-      title: 'WHY VIBE CODE?',
+      title: 'WHY V100 NETWORK?',
       items: [
         {
           icon: 'Zap',
@@ -91,24 +91,24 @@ export const copy = {
     },
     about: {
       title: 'BUILT FOR PEOPLE WHO BUILD.',
-      p1: 'VIBE CODE is a digital community focused on programming, development and custom digital solutions.',
-      p2: 'Whether you need a Discord bot, website, automation system or a completely custom project, VIBE CODE is here to turn your idea into something real.',
+      p1: 'V100 NETWORK is a digital community focused on programming, development and custom digital solutions.',
+      p2: 'Whether you need a Discord bot, website, automation system or a completely custom project, V100 NETWORK is here to turn your idea into something real.',
     },
     discordCta: {
       title: 'YOUR NEXT PROJECT STARTS HERE.',
       subtitle:
-        'Join the VIBE CODE community, talk with developers, request a service and bring your idea to life.',
+        'Join the V100 NETWORK community, talk with developers, request a service and bring your idea to life.',
       online: 'SERVER ONLINE',
       members: 'MEMBERS',
       services: 'SERVICES',
       projects: 'PROJECTS',
-      join: 'JOIN VIBE CODE ON DISCORD',
+      join: 'JOIN V100 NETWORK ON DISCORD',
     },
     panel: {
       eyebrow: 'CLIENT ACCESS',
       title: 'CONTROL PANEL',
-      subtitle: 'Manage your services from the official VIBE panel — built into the site.',
-      windowTitle: 'LOBEX VIBE PANEL',
+      subtitle: 'Manage your services from the official V100 NETWORK panel — built into the site.',
+      windowTitle: 'LOBEX V100 NETWORK PANEL',
       online: 'ONLINE',
       open: 'OPEN PANEL',
       fullscreen: 'Open in a new window',
@@ -123,7 +123,7 @@ export const copy = {
     },
     footer: {
       description: 'Programming • Development • Digital Services',
-      rights: '© 2026 VIBE CODE. All rights reserved.',
+      rights: '© 2026 V100 NETWORK. All rights reserved.',
     },
     lang: 'العربية',
   },
@@ -141,22 +141,22 @@ export const copy = {
       join: 'انضم لديسكورد',
     },
     hero: {
-      badge: 'VIBE CODE متصل الآن',
+      badge: 'V100 NETWORK متصل الآن',
       titleLead: 'CODE. CREATE.',
-      titleAccent: 'VIBE.',
+      titleAccent: 'V100 NETWORK.',
       subtitle:
         'حلول برمجية ورقمية احترافية للمبدعين والمجتمعات والأعمال.',
       subtitleArNote:
-        'من فكرة بسيطة إلى مشروع متكامل — VIBE CODE يوفر لك حلولًا برمجية ورقمية احترافية.',
+        'من فكرة بسيطة إلى مشروع متكامل — V100 NETWORK يوفر لك حلولًا برمجية ورقمية احترافية.',
       getStarted: 'ابدأ الآن',
       join: 'انضم لديسكورد',
       panel: 'افتح اللوحة',
     },
     terminal: {
-      title: 'VIBE CODE TERMINAL',
+      title: 'V100 NETWORK TERMINAL',
       lines: [
-        '$ vibe init',
-        'Initializing VIBE CODE…',
+        '$ v100 init',
+        'Initializing V100 NETWORK…',
         'Loading services…',
         'Connecting to Discord…',
         'Checking systems…',
@@ -193,7 +193,7 @@ export const copy = {
       view: 'عرض المشروع',
     },
     why: {
-      title: 'لماذا VIBE CODE؟',
+      title: 'لماذا V100 NETWORK؟',
       items: [
         {
           icon: 'Zap',
@@ -219,24 +219,24 @@ export const copy = {
     },
     about: {
       title: 'مبني لمن يبنون.',
-      p1: 'VIBE CODE مجتمع رقمي يركز على البرمجة والتطوير والحلول الرقمية المخصصة.',
-      p2: 'سواء كنت تحتاج بوت ديسكورد أو موقعًا أو نظام أتمتة أو مشروعًا مخصصًا بالكامل، VIBE CODE هنا ليحوّل فكرتك إلى شيء حقيقي.',
+      p1: 'V100 NETWORK مجتمع رقمي يركز على البرمجة والتطوير والحلول الرقمية المخصصة.',
+      p2: 'سواء كنت تحتاج بوت ديسكورد أو موقعًا أو نظام أتمتة أو مشروعًا مخصصًا بالكامل، V100 NETWORK هنا ليحوّل فكرتك إلى شي�� حقيقي.',
     },
     discordCta: {
       title: 'مشروعك القادم يبدأ من هنا.',
       subtitle:
-        'انضم إلى مجتمع VIBE CODE، تحدث مع المطوّرين، اطلب خدمة وحوّل فكرتك إلى واقع.',
+        'انضم إلى مجتمع V100 NETWORK، تحدث مع المطوّرين، اطلب خدمة وحوّل فكرتك إلى واقع.',
       online: 'السيرفر متصل',
       members: 'الأعضاء',
       services: 'الخدمات',
       projects: 'المشاريع',
-      join: 'انضم إلى VIBE CODE على ديسكورد',
+      join: 'انضم إلى V100 NETWORK على ديسكورد',
     },
     panel: {
       eyebrow: 'وصول العملاء',
       title: 'لوحة التحكم',
-      subtitle: 'أدر خدماتك من لوحة VIBE الرسمية — مدمجة داخل الموقع.',
-      windowTitle: 'LOBEX VIBE PANEL',
+      subtitle: 'أدر خدماتك من لوحة V100 NETWORK الرسمية — مدمجة داخل الموقع.',
+      windowTitle: 'LOBEX V100 NETWORK PANEL',
       online: 'متصل',
       open: 'افتح اللوحة',
       fullscreen: 'افتح في نافذة جديدة',
@@ -251,7 +251,7 @@ export const copy = {
     },
     footer: {
       description: 'برمجة • تطوير • خدمات رقمية',
-      rights: '© 2026 VIBE CODE. جميع الحقوق محفوظة.',
+      rights: '© 2026 V100 NETWORK. جميع الحقوق محفوظة.',
     },
     lang: 'EN',
   },
